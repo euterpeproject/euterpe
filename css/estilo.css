@@ -160,7 +160,7 @@ margin-top:10px;
 
 .ps{
 font-family: acadian;
-font-size: 27px;
+font-size: 30px;
 text-align:justify;
 color:white;
 text-shadow: 2px 2px 5px rgba(255,255,255,1);
@@ -170,8 +170,6 @@ text-shadow: 2px 2px 5px rgba(255,255,255,1);
 /*Menu de navegacion*/
 
 /* nav{
-
-
 } */
 
 nav ul{
@@ -235,12 +233,9 @@ background:url('../img/negro.png'),url('../img/puas.jpg');
 #principal{
 text-align: left;
 margin:auto;
-width:80%;
+width:90%;
 height:100%;
-/*background:gray;*/
 position: relative;
-
-
 
 }
 
@@ -369,7 +364,7 @@ height:100px;
 color:white;
 display:table;
 background:rgba(0,0,0,0.8);
-font-size: 10px;
+/* font-size: 10px; */
 text-decoration:none;
 text-align:justify;
 overflow:hidden;
@@ -657,11 +652,17 @@ padding:10px;
 
 .pform{
 font-family:macabre;
-font-size:18px;
+font-size:23px;
 color:black;
 text-align:right;
 margin:auto;
 padding:0px;
+
+text-shadow: 
+3px 3px 5px white,
+3px 3px 5px white,
+3px 3px 5px white;
+
 }
 
 form input, form textarea{
@@ -749,3 +750,24 @@ text-shadow:
     text-align: center;
     
 }
+
+/*template para table */
+/* @media (min-width: 600px)
+{
+    #principal{
+        width: 100%;
+    }
+    
+} */
+
+/*template para pc */
+/* @supports (display: flex) {
+    @media screen and (min-width: 900px) {
+      #principal {
+        display: block;
+        width: auto;
+      }
+    }
+  } */
+
+
