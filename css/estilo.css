@@ -332,7 +332,7 @@ transform:scale(1,1);
 
 }
 
-article:hover{
+article:link:visited:hover:active{
 background-image:url('../img/dragon.jpg');
 background-size: 118%;
 opacity:1;
