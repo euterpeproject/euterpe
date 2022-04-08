@@ -334,7 +334,7 @@ transform:scale(1,1);
 
 article:hover{
 background-image:url('../img/dragon.jpg');
-background-size: 118%;
+background-size: 150%;
 opacity:1;
 transform:scale(1.1,1.1);
 -webkit-transform:scale(1.1,1.1);
