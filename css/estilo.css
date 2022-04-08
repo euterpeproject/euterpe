@@ -333,8 +333,8 @@ transform:scale(1,1);
 }
 
 article:hover{
-background-image:url('../img/dragon.jpg');
-background-size: 150%;
+background-image:url('../img/drago.jpg');
+background-size: 130%;
 opacity:1;
 transform:scale(1.1,1.1);
 -webkit-transform:scale(1.1,1.1);
