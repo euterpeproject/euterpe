@@ -5,7 +5,7 @@ if (localStorage.pagecount) {
 } else {
     localStorage.pagecount = 1;
 }
-document.write("Has visitado mi página " + localStorage.pagecount + " veces");
+document.write("Has visitado mi página: " + localStorage.pagecount + " veces. ");
 
 
 if (sessionStorage.pagecount) {
@@ -13,7 +13,7 @@ if (sessionStorage.pagecount) {
 } else {
     sessionStorage.pagecount = 1;
 }
-document.write("En esta sesión, has visitado mi página :" + sessionStorage.pagecount + " veces");
+
+document.write("En esta sesión, has visitado mi página: " + sessionStorage.pagecount + " veces.");
 
 document.write('</span></div>');
-
