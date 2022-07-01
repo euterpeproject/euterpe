@@ -35,45 +35,70 @@
 			<hr><hr class="hr2">
 
 		<div id="php">
+
 		<?php
+			//Recibo las variables de formulario
 
-//Recibo las variables de formulario
+			$nombre = $_POST['nombre'];
+			$email = $_POST['email'];
+			$mensaje = $_POST['mensaje'];
 
-$nombre = $_POST['nombre'];
-$mail = $_POST['email'];
-$mensaje = $_POST['mensaje'];
+			//Te muestro las variables
 
-//Te muestro las variables
+			echo "<br />";
+			echo "<h3> '   'El mensaje que has enviado es:</h3>";
+			echo "<br />";
+			echo "<h4>'  'Nombre: ";
+			echo $nombre;
+			echo "<br />";
+			echo " '  'Email: ";
+			echo $email;
+			echo "<br />";
+			echo " '  'Mensaje: ";
+			echo $mensaje;
+			echo "</h4>";
 
-echo "<br />";
-echo "<h3> '   'El mensaje que has enviado es:</h3>";
-echo "<br />";
-echo "<h4>'  'Nombre: ";
-echo $nombre;
-echo "<br />";
-echo " '  'Email: ";
-echo $mail;
-echo "<br />";
-echo " '  'Mensaje: ";
-echo $mensaje;
-echo "</h4>";
+			//Envio un email
 
-//Envio un email
+			$mensajemail = $nombre." con el email ".$email." te ha enviado un mensaje que dice: ".$mensaje;
 
-$aquien = "vitr2o@gmail.com";
-$asunto = "Has recibido un correo del Blog";
-$mensajemail = $nombre." con el email ".$mail." te ha enviado un mensaje que dice ".$mensaje;
+			use PHPMailer\PHPMailer\PHPMailer;
+			use PHPMailer\PHPMailer\Exception;
 
-if(mail($aquien,$asunto,$mensajemail)){
+			require 'phpmailer/Exception.php';
+			require 'phpmailer/PHPMailer.php';
+			require 'phpmailer/SMTP.php';
 
-echo "<h5>' 'Tu email se ha enviado correctamente</h5>";
+			//Create an instance; passing `true` enables exceptions
+			$mail = new PHPMailer(true);
 
-}else{
-echo "<h5>'El envio del email ha fallado'</h5>";
-}
- 
+			try {
+				//Server settings                  
+				$mail->SMTPDebug = 0;                                       
+				$mail->isSMTP();                                            
+				$mail->Host       = 'smtp.gmail.com';                       
+				$mail->SMTPAuth   = true;                                   
+				$mail->Username   = 'vitr2o@gmail.com';                     
+				$mail->Password   = 'uijjiojcvbyimjyy';                               
+				$mail->SMTPSecure = 'tls';                                  
+				// $mail->Port       = 465;                                 
+				$mail->Port       = 587;                                        
+				$mail->setFrom($email, $nombre);
+				$mail->addAddress('vitr2o@gmail.com');     
+				$mail->addAddress('vitr2o@outlook.com');   
 
-?>
+				//Content
+				$mail->isHTML(true);                                  
+				$mail->Subject = 'Hola correo enviado desde tu página web';
+				$mail->Body    = $mensajemail;
+				$mail->CharSet = 'UTF-8';
+				$mail->send();
+				echo '<h5>El mensaje se envio correctamente</h5>';
+			} catch (Exception $e) {
+				echo "<h5>Hubo un error al enviar el mensaje: {$mail->ErrorInfo}</5>";
+			}
+			
+			?>
 				</div>
 				<hr>
 			</div>
