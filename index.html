@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head manifest="/manifiesto/manifiesto.cache">
-		<title>Euterpe Death</title>
+		<title>Euterpe Metal</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="description" content="Euterpe Death" />
 		<meta name="keywords" content="Weblog, blog, Euterpe Death, Musica, Metal" />
