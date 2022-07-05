@@ -4,18 +4,51 @@
 		<title>Euterpe Metal</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="description" content="Euterpe Death" />
-		<meta name="keywords" content="Weblog, blog, Euterpe Death, Musica, Metal" />
-		
-		<meta property="og:url" content="https://euterpeproject.github.io/euterpe/" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Euterpe Metal" />
-		<meta property="og:description" content="Sitio web oficial de Euterpe" />
-		<meta property="og:image" content="https://github.com/euterpeproject/euterpe/blob/main/audioplayerengine/logo.jpg" />
-		<meta property="og:width" content="600px" />
-		<meta property="og:height" content="314px" />
+		<meta name="keywords" content="Weblog, blog, Euterpe Death, Musica, Metal" />	
 		
 		<link rel="stylesheet" href="css/estilo.css" type="text/css" />
+		
+		<script>
+			import React, { useCallback } from «react»;
+			import { Alert, Button, Linking, StyleSheet, View } from «react-native»; 
 
+			const supportedURL = «https://google.com»; 
+
+			const unsupportedURL = «slack://open?team=123456»; 
+
+			const OpenURLButton = ({ url, children }) => {
+			const handlePress = useCallback(async () => {
+			// Checking if the link is supported for links with custom URL scheme.
+			const supported = await Linking.canOpenURL(url); 
+
+			if (supported) {
+			// Opening the link with some app, if the URL scheme is «http» the web link should be opened
+			// by some browser in the mobile
+			await Linking.openURL(url);
+			} else {
+			Alert.alert(`Don’t know how to open this URL: ${url}`);
+			}
+			}, [url]); 
+
+			return ;
+			}; 
+
+			const App = () => {
+			return ( 
+
+			Open Supported URL
+			Open Unsupported URL 
+
+			);
+			}; 
+
+			export default App; 
+
+			const styles = StyleSheet.create({
+			container: { flex: 1, justifyContent: «center», alignItems: «center» },
+			});
+		</script>
+		
 	</head>
 	<body>
 		<div id="cajaheader"></div>
