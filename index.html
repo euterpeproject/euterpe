@@ -5,121 +5,139 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="description" content="Euterpe Death" />
 		<meta name="keywords" content="Weblog, blog, Euterpe Death, Musica, Metal" />
+	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
 		<link rel="stylesheet" href="css/estilo.css" type="text/css" />
 
 	</head>
 	<body>
-		<div id="cajaheader"></div>
-		
-		<div id="principal" itempscope itemtype="http://www.data-vocabulary.org/Person">
+
+		<div class="container-fluid" itempscope itemtype="http://www.data-vocabulary.org/Person">
 			
 			<header>
-				
-				<div id="logo"></div>
-				
 				<div>
-					<h1 class="titulo">EUTERP<span class="ocultar">'</span></h1><h1><span class="es inline-block">E</span></h1>
+					<h1>E<span class="ocultar">''</span>U<span class="ocultar">''</span>T<span class="ocultar">''</span>E<span class="ocultar">''</span>R<span class="ocultar">''</span>P<span class="ocultar">'</span><span class="inline-block">E</span></h1>
 				</div>
-				
 			</header>
 
 			<div id="contenido">
 
 				<hr><hr class="hr2">
-				<center><nav>
-					<ul>
-						<li><a href="index.html" class="link"><canvas id="iconoinicio" width="50" height="50"></canvas><br />INICIO</a></li>
-						<li><a href="musica.html" class="link"><canvas id="iconomusica" width="50" height="50"></canvas><br />MÚSICA</a></li>
-						<li><a href="sobremi.html" class="link"><canvas id="iconosobreMi" width="50" height="50"></canvas><br />EUTERPE</a></li>
-						<li><a href="contacto.html" class="link"><canvas id="iconocontacto" width="50" height="50"></canvas><br />CONTACTO</a></li>
-					</ul>
-				</nav></center>
+				
+				<nav class="navbar navbar-expand-lg text-center">
+						<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary text-center"> -->
+						  <div class="container">
+							<a class="navbar-brand" href="#"></a>
+							<button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							  <span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							  <ul class="navbar-nav">
+								<li class="nav-item">
+								  <a href="index.html" class="link anchor"><canvas class="canvas" id="iconoinicio" width="50" height="50"></canvas><br />INICIO</a>
+								</li>
+								<li class="nav-item">
+								  <a href="musica.html" class="link anchor"><canvas class="canvas" id="iconomusica" width="50" height="50"></canvas><br />MÚSICA</a>
+								</li>
+								<li class="nav-item">
+								  <a href="sobremi.html" class="link anchor"><canvas class="canvas" id="iconosobreMi" width="50" height="50"></canvas><br />EUTERPE</a>
+								</li>
+								<li class="nav-item">
+								  <a href="contacto.html" class="link anchor"><canvas class="canvas" id="iconocontacto" width="50" height="50"></canvas><br />CONTACTO</a>
+								</li>
+							  </ul><br>
+							</div>
+						  </div>
+						</nav>
+
 				<hr><hr class="hr2">
 
 				<section id="sobremi">
 					<span itemprop="photo"><div id="mifoto"></div></span>
 					<p class="ps">
-						Euterpe banda de metal extremo, conformada en Caldas(ANT), al rededor del 2010. Su alineación inicial, con 
-						Victor Restrepo como Guitarrista lider, Mauro Rojas en la Batería; despúes de varias presentaciones, 
-						por motivos personales el baterista se retira de la banda en el año 2012. Victor decide continuar con el proyecto en
-						solitario. Para el año 2020 se integra al proyecto el bajista Edilberto(Inglant), 
-						y regresa nuevamente el Baterísta Mauro Rojas, formando así la alineación actual.
-					<span itemprop="url"><a href="https://euterpeproject.github.io/euterpe/">https://euterpeproject.github.io/euterpe/</a></span></p> 
+						Euterpe banda de metal extremo, conformada en Caldas (ANT), al rededor del 2010. Su alineacion inicial, con 
+						Victor Restrepo como Guitarrista lider y vocal, Mauro Rojas en la Bateria; despues de varias presentaciones, 
+						por motivos personales el baterista se retira de la banda en el ano 2012. Victor decide continuar con el proyecto en
+						solitario. Para el ano 2020 se integra al proyecto el bajista Edilberto (Inglant), 
+						y regresa nuevamente el baterista Mauro Rojas, formando asi la alineacion actual.
+					<span itemprop="url"><a href="https://euterpeproject.github.io/euterpe/">https://euterpeproject.io</a></span></p> 
 				</section>
 			
 				<hr><hr class="hr2">
 
 				<section>
-					<article>
+					<article class="articulo">
 					<div id="euterpelogo"></div>
 						<time>2022-01-05</time>
 						<h3 class="titles">EUTERPE VIDEO</h3>
 						<h4 class="subtitles">Lanzamiento Enero (2022)</h4>
 						<p class="pa">Cancer Death Video HD</p>
 
-						<iframe width="580" height="400" src="https://www.youtube.com/embed/td63yAT7EJk" 
+						<iframe class="iframe" src="https://www.youtube.com/embed/td63yAT7EJk" 
 							title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 							encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 						</iframe>
 						<br><br>
 					</article>
 					<hr>
-					<article>
-					<div id="mifotoarticulo"></div>
+					<article class="articulo">
+					<!-- <div id="mifotoarticulo"></div> -->
+					<div id="euterpelogo"></div>
 						<time>2022-01-01</time>
 						<h3 class="titles">NEW TRACK No-1</h3>
 						<h4 class="subtitles">Dominacion - (1_07)</h4>
 						<p class="pa">Nuevo Trabajo Musical</p>
 						<audio class="audio" src="audio/01_Dominación.wav" controls="controls" preload="preload">
 							Tu navegador no soporta audio. Haz clic <a href="">AQUI</a>para descargar un navegador compatible
-						</audio>
+						</audio><br><br>
 
-					</article>
+					</article class="articulo">
 					<hr>
-					<article>
+					<article class="articulo">
 						<time>2022-01-01</time>
 						<h3 class="titles">NEW TRACK No-2</h3>
 						<h4 class="subtitles">Mortal Man - (1_05)</h4>
-						<audio src="audio/02_Mortal_Man.wav" controls="controls" preload="preload">
+						<audio class="audio" src="audio/02_Mortal_Man.wav" controls="controls" preload="preload">
 							Tu navegador no soporta audio. Haz clic <a href="">AQUI</a> para descargar un navegador compatible
-						</audio>
+						</audio><br><br>
 					</article>
 					<hr>
-					<article>
+					<article class="articulo">
 						<time>2022-01-01</time>
 						<h3 class="titles">NEW TRACK No-3</h3>
 						<h4 class="subtitles">Cancer Death - (1_07)</h4>
-						<audio src="audio/03_Cancer_Death.wav" controls="controls" preload="preload">
+						<audio class="audio" src="audio/03_Cancer_Death.wav" controls="controls" preload="preload">
 							Tu navegador no soporta audio. Haz clic <a href="">AQUI</a> para descargar un navegador compatible
-						</audio>
+						</audio><br><br>
 					</article>
 					<hr>
-					<article>
+					<article class="articulo">
 						<time>2022-01-01</time>
 						<h3 class="titles">NEW TRACK No-4</h3>
 						<h4 class="subtitles">Almas En Pena - (1_07)</h4>
-						<audio src="audio/04_Almas_En_Pena.wav" controls="controls" preload="preload">
+						<audio class="audio" src="audio/04_Almas_En_Pena.wav" controls="controls" preload="preload">
 							Tu navegador no soporta audio. Haz clic <a href="">AQUI</a> para descargar un navegador compatible
-						</audio>
+						</audio><br><br>
 					</article>
 					<hr>
-					<article>
+					<article class="articulo">
 						<time>2022-01-01</time>
 						<h3 class="titles">NEW TRACK No-5</h3>
-						<h4 class="subtitles">Estado Macabro - (1_07)</h4>
-						<audio src="audio/05_Estado_Macabro.wav" controls="controls" preload="preload">
+						<h4 class="subtitles">Estado Macabro - (1_07)</h4><br>
+						<audio class="audio" src="audio/05_Estado_Macabro.wav" controls="controls" preload="preload">
 							Tu navegador no soporta audio. Haz clic <a href="">AQUI</a> para descargar un navegador compatible
-						</audio>
+						</audio><br><br>
 					</article>
 
 				</section>
 				<hr>
 			</div>
-
+		
 			<footer>
 				<h6>
 					<div class="vcard">
-						<div> <span class="name">Euterpe Death</span>-<span class="locality">Medellín</span>-<span class="region">Antioquia</span>-<span class="country-name">Colombia</span></div>
+						<div> <br><span class="name">Euterpe Death</span>-<span class="locality">Medellin</span>-<span class="region">Antioquia</span>-<span class="country-name">Colombia</span></div>
 						<div> <span class="tel">3122084404</span>-<span class="email">vitr2o@gmail.com</span></div>
 					</div>
 				</h6>
@@ -129,6 +147,10 @@
 			</footer>
 		</div>
 
+		<script src="js/jquery.min.js"></script>
+    	<script src="js/popper.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+		
 		<script src="js/iconos.js"></script>
 
 	</body>

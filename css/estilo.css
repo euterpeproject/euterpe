@@ -68,22 +68,12 @@ padding:0px;
 h6{font-family:achafont;}
 
 h1{
-position: absolute;
-display:table;
-margin:auto;
 text-align:center;
-width:100%;
 color: rgb(0, 0, 0);
-font-size:50px;
-letter-spacing: 50px;
 text-shadow: 
 0px 0px 15px rgba(255,255,255,1),
 0px 0px 15px rgba(255,255,255,1),
 0px 0px 15px rgba(255,255,255,1);
-margin-top:-110px;
-
-box-shadow: 
-3px 3px 80px rgb(255, 255, 255);
 
 }
 
@@ -102,31 +92,6 @@ padding:0px;
 
 }
 
-h3{
-
-margin:0px;
-padding:0px;
-font-size:36px;
-
-text-shadow: 
-0px 0px 8px rgba(255,255,255,1),
-0px 0px 8px rgba(255,255,255,1),
-0px 0px 8px rgba(255,255,255,1);
-
-}
-
-h4{
-margin:0px;
-padding:0px;
-font-size:24px;
-
-text-shadow: 
-0px 0px 8px rgba(255,255,255,1),
-0px 0px 8px rgba(255,255,255,1),
-0px 0px 8px rgba(255,255,255,1);
-
-}
-
 h6{
 font-family: things;
 font-size: 18px;
@@ -137,26 +102,22 @@ text-shadow: 1px 1px 4px rgba(255,255,255,0.5);
 
 p{
 font-family: achafont;
-font-size: 38px;
-text-align:justify;
 color:white;
 text-shadow: 2px 2px 5px rgba(255,255,255,1);
 
 }
 
 .pa{
-font-size: 6em;
-color:black;
-text-shadow: 
-0px 0px 8px rgba(255,255,255,1),
-0px 0px 8px rgba(255,255,255,1),
-0px 0px 8px rgba(255,255,255,1);
-margin-top: -10px;
+  color:black;
+  text-shadow: 
+  0px 0px 8px rgba(255,255,255,1),
+  0px 0px 8px rgba(255,255,255,1),
+  0px 0px 8px rgba(255,255,255,1);
 }
 
 .ps{
 font-family: acadian;
-font-size: 45px;
+/* font-size: 45px; */
 text-align:justify;
 color:white;
 text-shadow: 2px 2px 5px rgba(255,255,255,1);
@@ -167,12 +128,7 @@ padding: 0px 10px 0px 10px;
 
 /*Menu de navegacion*/
 
-/* nav{
-
-} */
-
 nav ul{
-font-size: 26px;
 color:white;
 font-family:things;
 position:relative;
@@ -181,8 +137,6 @@ display:inline;
 
 nav ul li{
 display:inline;
-text-align:center;
-
 }
 
 nav ul li a{
@@ -199,19 +153,10 @@ box-shadow:
 2px 2px 5px white,
 2px 2px 10px white inset;
 
-/* ancho de los iconos */
-width:17%;
-/* espacio entre iconos */
-margin: 5px;
-margin-right: 50px; 
-
-margin-top: 10px;
-
 background:url('../img/rojo.jpg');
 
 transition: opacity 1s, box-shadow 1s, transform 1s, background 1s;
 transform:scale(1,1);
-
 
 }
 
@@ -223,10 +168,6 @@ box-shadow:0px 0px 25px white;
 
 transform:scale(1.1,1.1);
 -webkit-transform:scale(1.1,1.1);
-
-
-/* transform:translate(-140px, 0px);
--webkit-transform:translate(-140px, 0px); */
 
 }
 
@@ -240,28 +181,21 @@ border:0px solid white;
 
 body{
 text-align: center;
-margin:0px;
+width: fit-content;
 background: grey;
 background:url('../img/negro.png'),url('../img/puas.jpg');
 }
 
-#principal{
-text-align: left;
+/* #principal{
+text-align: center;
 margin:auto;
-width:90%;
 height:100%;
 position: relative;
 
-}
+} */
 
 header{
-display:table;
-margin: auto;
-text-align: left;
-width:100%;
-height:150px;
-overflow: hidden;
-
+height: 150px;
 border: 2px solid white;
 
 border-radius: 5px 35px 0px 0px;
@@ -269,14 +203,13 @@ border-radius: 5px 35px 0px 0px;
 -webkit-border-radius: 5px 35px 0px 0px;
 -o-border-radius: 5px 35px 0px 0px;
 
+box-shadow: 
+        0px 0px 70px white inset,
+        0px 0px 10px white,
+        0px 0px 10px white;
+
 background-image: url("../img/puas.jpg");
 
-}
-
-#logo{
-width: 100px;
-height: 100px;
-position:relative;
 }
 
 footer{
@@ -301,14 +234,11 @@ box-shadow: 0px 0px 10px white;
 /*contenido */
 
 #contenido{
-width:100%;
 border: 2px solid white;
-
 box-shadow: 0px 0px 10px white;
 -moz-box-shadow: 0px 0px 10px white;
 -webkit-box-shadow: 0px 0px 10px white;
 -o-box-shadow: 0px 0px 10px white;
-background: rgba(255,255,255,0.1);
 
 }
 
@@ -325,7 +255,8 @@ color:rgb(0, 0, 0);
 border: 2px solid white;
 border-radius: 0px 25px 0px 25px;
 box-shadow: 
-3px 3px 80px rgb(255, 255, 255);
+3px 3px 30px rgb(255, 255, 255);
+
 padding: 10px 10px 10px 150px;
 opacity:0.9;
 transition: opacity 1s, box-shadow 1s, transform 1s, background 1s;
@@ -345,7 +276,7 @@ box-shadow: 0px 0px 80px rgb(82, 0, 0);
 
 time{
 font-family:achafont;
-font-size: 35px;
+/* font-size: 35px; */
 color:rgb(255, 255, 255);
 
 text-shadow: 
@@ -480,7 +411,7 @@ transform:translate(-140px, 0px);
 }
 
 
-#mifotoarticulo{
+/* #mifotoarticulo{
 width:100px;
 height:100px;
 font-family:achafont;
@@ -503,15 +434,15 @@ margin: 10px;
 position:absolute;
 transform:translate(-140px, 0px);
 -webkit-transform:translate(-140px, 0px);
-}
+} */
 
 #euterpelogo{
-width:100px;
-height:100px;
-font-family:achafont;
-font-size: 20px;
+/* width:100px;
+height:100px; */
+/* font-family:achafont; */
+/* font-size: 150px; */
 color:white;
-text-align:left;
+/* text-align:left; */
 
 background:url('../photo/euterpelogo.jpg');
 background-size: 100% 100%;
@@ -754,16 +685,16 @@ text-shadow:
 }
 
 .contador{
-    text-shadow: 
-    3px 3px 15px rgba(255,255,255,1),
-    3px 3px 15px rgba(255,255,255,1),
-    3px 3px 15px rgba(255,255,255,1);
-    text-align: center;
-    font-size: 2em;
+  /* font-size: 22px; */
+  color: darkred;
+  text-shadow: 
+  0px 0px 15px rgba(255,255,255,1),
+  0px 0px 15px rgba(255,255,255,1),
+  0px 0px 15px rgba(255,255,255,1);
+  text-align: center;
 }
 
 iframe{
-  margin-top: -70px;
   box-shadow: 
 	0px 0px 30px #480606 inset,
 	0px 0px 10px rgb(255, 255, 255),
@@ -774,29 +705,20 @@ iframe{
 
   border: 3px solid white;
 
-  margin-right: 100px;
-  
-
 }
 
 .titles{
-  font-size: 3em;
+  text-shadow: 
+0px 0px 8px rgba(255,255,255,1),
+0px 0px 8px rgba(255,255,255,1),
+0px 0px 8px rgba(255,255,255,1);
 }
 
 .subtitles{
-  font-size: 2.5em;
-}
-
-.vcard{
-  font-size: 1.5em;
-}
-
-.titulo{
-  font-size: 4.2em;
-  box-shadow: 
-  0px 3px 43px white inset,
-  0px 3px 43px white inset,
-  0px 3px 43px white inset;
+  text-shadow: 
+0px 0px 8px rgba(255,255,255,1),
+0px 0px 8px rgba(255,255,255,1),
+0px 0px 8px rgba(255,255,255,1);
 
 }
 
@@ -808,19 +730,12 @@ hr{
   border: dashed 2px rgb(101, 0, 0);
 }
 
-.es{
-    font-size: 1.4em;
-    margin-top: -5px;
-    margin-left: 615px;
-
+.inline-block{
     -webkit-transform: rotate(0deg) rotatey(150deg);
     -moz-transform: rotate(0deg) rotatey(150deg);
     -o-transform: rotate(0deg) rotatey(150deg);
     transform: rotate(0deg) rotatey(150deg);
-    /* filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); */
-}
 
-.inline-block{
   display:-moz-inline-stack;
   display:inline-block;
   zoom:1;
@@ -839,22 +754,11 @@ hr{
 }
 
 /*class track de audio con margen */
-.audio{
-  margin-top: -50px;
-  padding-bottom: -100px;
-
-}
 
 /* audio general */
 audio {
-  margin: 0;
-  padding: 0;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 30px;
-  font-size: 100%;
-  /* font: inherit; */
-  height: 66px;
-  width: 44%;
 }
 
 /* alto y ancho del contenedor */
@@ -889,7 +793,7 @@ audio::-webkit-media-controls-panel {
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
   color: #000000;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: macabre;
   padding-top: 30px;
   padding-left: 10px;
@@ -978,3 +882,602 @@ video::-webkit-media-controls-time-remaining-display {
   0px 0px 5px white,
   0px 0px 5px white;
 }
+
+.button {
+  margin: 8px;
+  background-color: darkred;
+}
+
+.container {
+  border: 2px solid white;
+
+  box-shadow: 
+  0 0 15px white inset,
+  0 0 15px white inset;
+
+}
+
+.nav-item {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.container-fluid {
+  width: 95%;
+}
+
+.anchor {
+  padding: 5px;
+}
+
+/*============================================================*/
+/* @MediaQuery */
+/*============================================================*/
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  .contador{
+    font-size: 17px;
+  }
+
+  .vcard{
+    font-size: 1em;
+  }
+
+  /*Letra y tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    font-size: 22px;
+  }
+
+  .audio{
+    margin-left: -140px;
+    height: 50px;
+    width: 90%;
+  }
+
+  time{
+    font-size: 24px;
+    margin-top: -15px;
+  }
+
+  .iframe {
+    width: 135%;
+    height: 250px;
+    margin-left: -137px;
+  }
+
+  .articulo {
+    width: 90%;
+  }
+
+  .pa{
+    font-size: 3.2em;
+    margin-left: -140px;
+    margin-top: -20px;
+  }
+
+  .subtitles {
+    font-size: 1.4em;
+    margin-left: -140px;
+  }
+
+  .titles{
+    font-size: 1.9em;
+    margin-top: 50px;
+    margin-left: -140px;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+
+  .ps{
+    font-size: 30px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  .anchor {
+    width:80%;
+  }
+
+  canvas {
+    height: 25px;
+  }
+
+}
+
+/*=======================================================================*/
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+ /*@Media del celular*/
+ /*=======================================================================*/
+
+ @media (min-width: 576px) {
+
+  .contador{
+    font-size: 22px;
+  }
+
+  .vcard{
+    font-size: 1.5em;
+  }
+
+  .pa{
+    font-size: 4.5em;
+    margin-left: -130px;
+    margin-top: -20px;
+  }
+
+  /*Letra y tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    font-size: 30px;
+  }
+
+  .audio{
+    margin-left: -130px;
+    height: 70px;
+    width: 70%;
+  }
+
+  .articulo {
+    width: 90%;
+  }
+
+  .iframe {
+    width: 115%;
+    height: 350px;
+    margin-left: -137px;
+  }
+
+  time{
+    font-size: 38px;
+    margin-top: -20px;
+  }
+
+  /* #euterpelogo{
+    width: 60px;
+    height: 60px;
+  } */
+
+  .subtitles {
+    font-size: 2em;
+    margin-left: -130px;
+  }
+
+  .titles{
+    font-size: 2.8em;
+    margin-top: 50px;
+    margin-left: -130px;
+  }
+
+  .button {
+    font-size: 25px;
+  }
+
+  .ps{
+    font-size: 50px;
+  }
+
+  header {
+    height: 110px;
+  }
+
+  h1 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin-top: 35px;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  .anchor {
+    font-size: 28px;
+    width:80%;
+  }
+
+  canvas {
+    height: 50px;
+  }
+
+ }
+
+ /*=============================================*/
+/* // Medium devices (tablets, 768px and up) */
+/*==============================================*/
+
+@media (min-width: 768px) {
+
+  .contador{
+    font-size: 18px;
+  }
+
+  .articulo {
+    width:78%;
+  }
+
+  .vcard{
+    font-size: 1.1em;
+  }
+
+  #euterpelogo{
+    width: 85px;
+    height: 85px;
+  }
+
+  time{
+    font-size: 26px;
+    padding: 5px;
+  }
+
+  /*Letra y tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+  font-size: 24px;
+  }
+
+  .audio{
+    height: 56px;
+    width: 60%;
+    margin-left: -140px;
+  }
+
+  .iframe {
+    width: 80%;
+    height: 300px;
+    margin-left: -140px;
+  }
+
+  .pa{
+    font-size: 3.3em;
+    margin-top: -30px;
+    margin-left: -140px;
+  }
+
+  .subtitles {
+    font-size: 1.5em;
+    margin-left: -140px;
+  }
+
+  .titles{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: -140px;
+  }
+
+  .button {
+    font-size: 18px;
+  }
+
+  .ps{
+    font-size: 30px;
+  }
+
+  header {
+    height: 110px;
+  }
+
+  h1 {
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-top: 35px;
+  }
+
+  nav{
+    width: 100%;
+    /* background-image: url("../img/drago.jpg"); */
+  }
+
+  .anchor {
+    font-size: 18px;
+    width:80%;
+  }
+
+  canvas {
+    height: 35px;
+  }
+
+}
+
+/*=============================================*/
+/* // Large devices (desktops, 992px and up) */
+/*=============================================*/
+
+@media (min-width: 992px) {
+
+  .contador{
+    font-size: 18px;
+  }
+
+  .articulo {
+    width:78%;
+  }
+
+  .vcard{
+    font-size: 1.1em;
+  }
+
+  #euterpelogo{
+    width: 90px;
+    height: 90px;
+  }
+
+  time{
+    font-size: 26px;
+    padding: 5px;
+  }
+
+  /*Letra y tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+  font-size: 25px;
+  }
+
+  .audio{
+    margin-left: -120px;
+    height: 56px;
+    width: 45%;
+  }
+
+  .iframe {
+    width: 60%;
+    height: 300px;
+    margin-left: -137px;
+  }
+
+  .pa{
+    font-size: 3.3em;
+    margin-left: -130px;
+    margin-top: -30px;
+  }
+
+  .subtitles {
+    font-size: 1.5em;
+    margin-left: -110px;
+  }
+
+  .titles{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: -110px;
+  }
+
+  .ps{
+    font-size: 30px;
+  }
+
+  header {
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 60px;
+    letter-spacing: 13px;
+    margin-top: 45px;
+  }
+
+  nav{
+    height: 65px;
+  }
+
+  .anchor {
+    /* espacio entre iconos */
+    font-size: 16px;
+    width:70%;
+    margin: 66.5px;
+    margin-left: 66.9px;
+  }
+
+  canvas {
+    height: 45px;
+  }
+
+  .container {
+    height: 200%;
+  }
+
+}
+
+/*======================================================*/
+/* // X-Large devices (large desktops, 1200px and up) */
+/*======================================================*/
+
+@media (min-width: 1200px) {
+
+  .contador{
+    font-size: 20px;
+  }
+
+  .articulo {
+    width:78%;
+  }
+
+  .vcard{
+    font-size: 1.3em;
+  }
+
+  #euterpelogo{
+    width:100px;
+    height:100px;
+  }
+
+  time{
+    font-size: 32px;
+    padding: 5px;
+  }
+
+  /*Letra y tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+  font-size: 26px;
+  }
+
+  .audio{
+    margin-left: -120px;
+    height: 66px;
+    width: 43%;
+  }
+
+  .iframe {
+    width: 60%;
+    height: 400px;
+    margin-left: -137px;
+  }
+
+  .pa{
+    font-size: 4.5em;
+    margin-left: -130px;
+    margin-top: -30px;
+  }
+
+  .subtitles {
+    font-size: 2em;
+    margin-left: -110px;
+  }
+
+  .titles{
+    font-size: 2.8em;
+    margin-top: 50px;
+    margin-left: -110px;
+  }
+
+  .ps{
+    font-size: 30px;
+  }
+
+  header {
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 65px;
+    letter-spacing: 13px;
+    margin-top: 45px;
+  }
+
+  nav{
+    height: 65px;
+  }
+
+  .anchor {
+    /* espacio entre iconos */
+    font-size: 16px;
+    width:75%;
+    margin: 84px;
+    margin-left: 83.5px;
+  }
+
+  canvas {
+    height: 50px;
+  }
+
+}
+
+/*===========================================================================*/
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+/*===========================================================================*/
+@media (min-width: 1400px) {
+
+  .contador{
+    font-size: 20px;
+  }
+
+  .articulo {
+    width:78%;
+  }
+
+  .vcard{
+    font-size: 1.5em;
+  }
+
+  #euterpelogo{
+    width:100px;
+    height:100px;
+  }
+
+  time{
+    font-size: 35px;
+  }
+
+  /*Letra y tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+  font-size: 26px;
+  }
+
+  .audio{
+    margin-left: -120px;
+    height: 66px;
+    width: 35%;
+  }
+
+  .pa{
+    font-size: 4.5em;
+    margin-left: -130px;
+    margin-top: -30px;
+  }
+
+  .subtitles {
+    font-size: 2em;
+    margin-left: -110px;
+  }
+
+  .titles{
+    font-size: 3em;
+    margin-top: 50px;
+  }
+
+  .iframe {
+    width: 60%;
+    height: 400px;
+    margin-left: -137px;
+  }
+
+  .ps{
+    font-size: 35px;
+  }
+
+  header {
+    height: 150px;
+  }
+
+  h1 {
+    font-size:70px;
+    letter-spacing: 15px;
+    margin-top: 50px;
+  }
+
+  nav{
+    height: 70px;
+  }
+
+  .anchor {
+    font-size: 16px;
+    width:80%;
+    margin: 105px;
+    margin-left: 100px;
+  }
+
+  canvas {
+    height: 50px;
+  }
+
+}
+
+/*====================@MediaQuery==================*/
