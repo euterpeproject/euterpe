@@ -1038,7 +1038,7 @@ video::-webkit-media-controls-time-remaining-display {
     height: 350px;
     margin-left: -137px;
 
-    border: 5px solid green;
+    /* border: 5px solid green; */
   }
 
   time{
