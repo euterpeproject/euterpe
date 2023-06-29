@@ -316,13 +316,8 @@ text-decoration:none;
 
 #mifoto{
 padding:5px;
-width:100px;
-height:100px;
-font-family:achafont;
-font-size:20px;
-color:white;
-text-align:left;
-
+/* width:100px;
+height:100px; */
 background:url('../photo/euterpelogo.jpg');
 background-size: 100% 100%;
 background-repeat: no-repeat;
@@ -773,6 +768,9 @@ audio::-webkit-media-controls-play-button {
   border-radius: 0px 10px;
   box-shadow: 
   0px 0px 15px rgb(0, 0, 0) inset;
+
+  margin: auto;
+
 }
 
 audio::-webkit-media-controls-mute-button {
@@ -780,23 +778,20 @@ audio::-webkit-media-controls-mute-button {
   background-color: #ffffff;
   border-radius: 0px 10px;
   box-shadow: 
-  0px 0px 15px rgb(0, 0, 0) inset
+  0px 0px 15px rgb(0, 0, 0) inset;
+
+  margin: auto;
+
 }
 
 audio::-webkit-media-controls-panel {
-  /* box-shadow: 
-	0px 0px 30px #cbcbcb inset; */
   background-image: url(../img/puas.jpg);
 }
 
 /* letra y tiempo del audio */
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
-  color: #000000;
-  /* font-size: 30px; */
   font-family: macabre;
-  padding-top: 30px;
-  padding-left: 10px;
   text-shadow: 
   0px 0px 5px white,
   0px 0px 5px white,
@@ -1030,7 +1025,7 @@ video::-webkit-media-controls-time-remaining-display {
 
   .audio{
     margin-left: -130px;
-    height: 70px;
+    height: 60px;
     width: 70%;
   }
 
@@ -1042,6 +1037,8 @@ video::-webkit-media-controls-time-remaining-display {
     width: 115%;
     height: 350px;
     margin-left: -137px;
+
+    border: 5px solid green;
   }
 
   time{
@@ -1061,7 +1058,7 @@ video::-webkit-media-controls-time-remaining-display {
 
   .titles{
     font-size: 2.8em;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: -130px;
   }
 
@@ -1104,69 +1101,91 @@ video::-webkit-media-controls-time-remaining-display {
 
 @media (min-width: 768px) {
 
+  #mifoto{
+      width:200px;
+      height:200px;
+    }
+
   .contador{
     font-size: 18px;
   }
 
   .articulo {
-    width:78%;
+    width:90%;
   }
 
   .vcard{
-    font-size: 1.1em;
+    font-size: 1.8em;
   }
 
-  #euterpelogo{
+  /* #euterpelogo{
     width: 85px;
     height: 85px;
-  }
+  } */
 
   time{
-    font-size: 26px;
+    font-size: 60px;
     padding: 5px;
   }
 
-  /*Letra y tiempo del audio*/
-  audio::-webkit-media-controls-current-time-display,
-  audio::-webkit-media-controls-time-remaining-display {
-  font-size: 24px;
+  /*Boton play izquierdo */
+  audio::-webkit-media-controls-play-button {
+    height: 100%;
+  }
+  
+  /*Boton play derecho */
+  audio::-webkit-media-controls-mute-button {
+    height: 100px;
+    margin-top: -35px;
+  
   }
 
+  /* Tiempo del audio*/
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+  font-size: 55px;
+  margin-top: 20px;
+  padding-top: 35px;
+  padding-left: 10px;
+
+  }
+
+  /*Ancho y alto del audio*/
   .audio{
-    height: 56px;
-    width: 60%;
+    height: 80px;
+    width: 70%;
     margin-left: -140px;
   }
 
   .iframe {
-    width: 80%;
-    height: 300px;
+    width: 100%;
+    height: 400px;
     margin-left: -140px;
   }
 
   .pa{
-    font-size: 3.3em;
+    font-size: 8em;
     margin-top: -30px;
     margin-left: -140px;
   }
 
   .subtitles {
-    font-size: 1.5em;
+    font-size: 3em;
     margin-left: -140px;
   }
 
   .titles{
-    font-size: 2em;
-    margin-top: 50px;
+    font-size: 3.5em;
+    margin-top: 100px;
     margin-left: -140px;
   }
 
   .button {
-    font-size: 18px;
+    font-size: 40px;
   }
 
   .ps{
-    font-size: 30px;
+    font-size: 70px;
   }
 
   header {
@@ -1174,7 +1193,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 8px;
     margin-top: 35px;
   }
@@ -1185,13 +1204,13 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .anchor {
-    font-size: 18px;
+    font-size: 40px;
     width:80%;
   }
 
-  canvas {
-    height: 35px;
-  }
+  /* canvas {
+    height: 70px;
+  } */
 
 }
 
@@ -1200,6 +1219,11 @@ video::-webkit-media-controls-time-remaining-display {
 /*=============================================*/
 
 @media (min-width: 992px) {
+
+  #mifoto{
+    width:100px;
+    height:100px;
+  }
 
   .contador{
     font-size: 18px;
@@ -1236,8 +1260,9 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .iframe {
-    width: 60%;
-    height: 300px;
+    border: 5px solid red;
+    width: 100%;
+    height: 400px;
     margin-left: -137px;
   }
 
@@ -1248,12 +1273,12 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .subtitles {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-left: -110px;
   }
 
   .titles{
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 50px;
     margin-left: -110px;
   }
@@ -1335,7 +1360,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .iframe {
-    width: 60%;
+    width: 75%;
     height: 400px;
     margin-left: -137px;
   }
