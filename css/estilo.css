@@ -998,17 +998,21 @@ video::-webkit-media-controls-time-remaining-display {
 
 /*=======================================================================*/
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
- /*@Media del celular*/
  /*=======================================================================*/
 
  @media (min-width: 576px) {
 
+  #mifoto{
+    width:150px;
+    height:150px;
+  }
+
   .contador{
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .vcard{
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .pa{
@@ -1017,16 +1021,32 @@ video::-webkit-media-controls-time-remaining-display {
     margin-top: -20px;
   }
 
-  /*Letra y tiempo del audio*/
+  /*Boton play izquierdo */
+  audio::-webkit-media-controls-play-button {
+    height: 100%;
+  }
+  
+  /*Boton play derecho */
+  audio::-webkit-media-controls-mute-button {
+    height: 100px;
+    margin-top: -35px;
+  
+  }
+
+  /* Tiempo del audio*/
   audio::-webkit-media-controls-current-time-display,
   audio::-webkit-media-controls-time-remaining-display {
-    font-size: 30px;
+  font-size: 30px;
+  /* margin-top: 10px; */
+  padding-top: 35px;
+  padding-left: 10px;
+
   }
 
   .audio{
     margin-left: -130px;
-    height: 60px;
-    width: 70%;
+    height: 70px;
+    width: 80%;
   }
 
   .articulo {
@@ -1046,24 +1066,20 @@ video::-webkit-media-controls-time-remaining-display {
     margin-top: -20px;
   }
 
-  /* #euterpelogo{
-    width: 60px;
-    height: 60px;
-  } */
-
   .subtitles {
     font-size: 2em;
     margin-left: -130px;
+    margin-top: 30px;
   }
 
   .titles{
-    font-size: 2.8em;
+    font-size: 2.5em;
     margin-top: 70px;
     margin-left: -130px;
   }
 
   .button {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .ps{
@@ -1075,9 +1091,9 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   h1 {
-    font-size: 65px;
-    letter-spacing: 2px;
-    margin-top: 35px;
+    font-size: 60px;
+    letter-spacing: 0px;
+    margin-top: 40px;
   }
 
   nav{
@@ -1085,25 +1101,26 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .anchor {
-    font-size: 28px;
+    font-size: 25px;
     width:80%;
   }
 
   canvas {
-    height: 50px;
+    height: 45px;
   }
 
  }
 
  /*=============================================*/
 /* // Medium devices (tablets, 768px and up) */
+ /*@Media facebook*/ /*@Media del celular*/
 /*==============================================*/
 
 @media (min-width: 768px) {
 
   #mifoto{
-      width:200px;
-      height:200px;
+      width:240px;
+      height:240px;
     }
 
   .contador{
@@ -1117,11 +1134,6 @@ video::-webkit-media-controls-time-remaining-display {
   .vcard{
     font-size: 1.8em;
   }
-
-  /* #euterpelogo{
-    width: 85px;
-    height: 85px;
-  } */
 
   time{
     font-size: 60px;
@@ -1161,41 +1173,46 @@ video::-webkit-media-controls-time-remaining-display {
     width: 100%;
     height: 400px;
     margin-left: -140px;
+
+    border: 5px solid red;
+
   }
 
   .pa{
     font-size: 8em;
-    margin-top: -30px;
+    margin-top: -50px;
+    /* margin-bottom: 0px; */
     margin-left: -140px;
   }
 
   .subtitles {
     font-size: 3em;
     margin-left: -140px;
+    margin-top: 30px;
   }
 
   .titles{
     font-size: 3.5em;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-left: -140px;
   }
 
   .button {
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .ps{
-    font-size: 70px;
+    font-size: 60px;
   }
 
   header {
-    height: 110px;
+    height: 140px;
   }
 
   h1 {
-    font-size: 70px;
-    letter-spacing: 8px;
-    margin-top: 35px;
+    font-size: 80px;
+    letter-spacing: 3px;
+    margin-top: 40px;
   }
 
   nav{
@@ -1208,9 +1225,9 @@ video::-webkit-media-controls-time-remaining-display {
     width:80%;
   }
 
-  /* canvas {
-    height: 70px;
-  } */
+  canvas {
+    height: 65px;
+  }
 
 }
 
