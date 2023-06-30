@@ -1132,7 +1132,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .vcard{
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
 
   time{
@@ -1179,20 +1179,20 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .pa{
-    font-size: 7em;
+    font-size: 6em;
     margin-top: -50px;
     /* margin-bottom: 0px; */
     margin-left: -140px;
   }
 
   .subtitles {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-left: -140px;
     margin-top: 30px;
   }
 
   .titles{
-    font-size: 3.3em;
+    font-size: 3.1em;
     margin-top: 110px;
     margin-left: -140px;
   }
