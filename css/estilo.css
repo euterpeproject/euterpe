@@ -1132,7 +1132,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .articulo {
-    width:90%;
+    width:95%;
   }
 
   .vcard{
@@ -1178,25 +1178,23 @@ video::-webkit-media-controls-time-remaining-display {
     height: 400px;
     margin-left: -140px;
 
-    border: 5px solid red;
-
   }
 
   .pa{
-    font-size: 6em;
+    font-size: 7em;
     margin-top: -50px;
     /* margin-bottom: 0px; */
     margin-left: -140px;
   }
 
   .subtitles {
-    font-size: 2.5em;
+    font-size: 2.7em;
     margin-left: -140px;
     margin-top: 30px;
   }
 
   .titles{
-    font-size: 3.1em;
+    font-size: 3.4em;
     margin-top: 110px;
     margin-left: -140px;
   }
@@ -1206,7 +1204,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .ps{
-    font-size: 60px;
+    font-size: 70px;
   }
 
   header {
@@ -1214,7 +1212,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 75px;
     letter-spacing: 3px;
     margin-top: 45px;
   }
