@@ -1155,7 +1155,7 @@ video::-webkit-media-controls-time-remaining-display {
   /* Tiempo del audio*/
   audio::-webkit-media-controls-current-time-display,
   audio::-webkit-media-controls-time-remaining-display {
-  font-size: 55px;
+  font-size: 45px;
   margin-top: 20px;
   padding-top: 35px;
   padding-left: 10px;
@@ -1164,7 +1164,7 @@ video::-webkit-media-controls-time-remaining-display {
 
   /*Ancho y alto del audio*/
   .audio{
-    height: 80px;
+    height: 75px;
     width: 70%;
     margin-left: -140px;
   }
@@ -1179,7 +1179,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .pa{
-    font-size: 8em;
+    font-size: 7em;
     margin-top: -50px;
     /* margin-bottom: 0px; */
     margin-left: -140px;
@@ -1192,7 +1192,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .titles{
-    font-size: 3.5em;
+    font-size: 3.3em;
     margin-top: 110px;
     margin-left: -140px;
   }
@@ -1221,7 +1221,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .anchor {
-    font-size: 40px;
+    font-size: 30px;
     width:80%;
   }
 
