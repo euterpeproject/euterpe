@@ -897,10 +897,6 @@ video::-webkit-media-controls-time-remaining-display {
   padding-top: 3px;
 }
 
-.container-fluid {
-  width: 95%;
-}
-
 .anchor {
   padding: 5px;
 }
@@ -1002,6 +998,10 @@ video::-webkit-media-controls-time-remaining-display {
 
  @media (min-width: 576px) {
 
+  .container-fluid {
+    width: 95%;
+  }
+
   #mifoto{
     width:150px;
     height:150px;
@@ -1058,7 +1058,7 @@ video::-webkit-media-controls-time-remaining-display {
     height: 350px;
     margin-left: -137px;
 
-    /* border: 5px solid green; */
+    border: 5px solid green;
   }
 
   time{
@@ -1073,7 +1073,7 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   .titles{
-    font-size: 2.5em;
+    font-size: 1.9em;
     margin-top: 70px;
     margin-left: -130px;
   }
@@ -1118,13 +1118,17 @@ video::-webkit-media-controls-time-remaining-display {
 
 @media (min-width: 768px) {
 
+  .container-fluid {
+    width: 100%;
+  }
+
   #mifoto{
       width:240px;
       height:240px;
     }
 
   .contador{
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .articulo {
@@ -1210,9 +1214,9 @@ video::-webkit-media-controls-time-remaining-display {
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 80px;
     letter-spacing: 3px;
-    margin-top: 40px;
+    margin-top: 45px;
   }
 
   nav{
@@ -1236,6 +1240,10 @@ video::-webkit-media-controls-time-remaining-display {
 /*=============================================*/
 
 @media (min-width: 992px) {
+
+  .container-fluid {
+    width: 95%;
+  }
 
   #mifoto{
     width:100px;
@@ -1342,6 +1350,10 @@ video::-webkit-media-controls-time-remaining-display {
 
 @media (min-width: 1200px) {
 
+  .container-fluid {
+    width: 95%;
+  }
+
   .contador{
     font-size: 20px;
   }
@@ -1435,6 +1447,10 @@ video::-webkit-media-controls-time-remaining-display {
 /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
 /*===========================================================================*/
 @media (min-width: 1400px) {
+
+  .container-fluid {
+    width: 95%;
+  }
 
   .contador{
     font-size: 20px;
