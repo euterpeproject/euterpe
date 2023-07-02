@@ -1114,13 +1114,13 @@ video::-webkit-media-controls-time-remaining-display {
 
   /*=============================================*/
 /* // Medium devices (tablets, 768px and up) */
- /*@Media facebook*/ /*@Media del celular*/
+ /*@Media facebook*/
 /*==============================================*/
 
 @media (min-width: 768px) {
 
   .container-fluid {
-    width: 95%;
+    width: 100%;
   }
 
   #mifoto{
@@ -1240,13 +1240,10 @@ video::-webkit-media-controls-time-remaining-display {
 /* // Medium devices (tablets, 768px and up) */
 /*@Media del celular*/
 /*==============================================*/
-
-/* @media (min-width: 768px) { */
-/* @media (min-width: 900px) { */
-@media (min-width: 800px) {
+@media (min-width: 799.72px) {
 
   .container-fluid {
-    width: 95%;
+    width: 80%;
   }
 
   #mifoto{
