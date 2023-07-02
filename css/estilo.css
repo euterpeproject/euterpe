@@ -992,6 +992,7 @@ video::-webkit-media-controls-time-remaining-display {
 
 }
 
+
 /*=======================================================================*/
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
  /*=======================================================================*/
@@ -1059,7 +1060,6 @@ video::-webkit-media-controls-time-remaining-display {
     height: 350px;
     margin-left: -137px;
 
-    /* border: 5px solid green; */
   }
 
   time{
@@ -1178,131 +1178,6 @@ video::-webkit-media-controls-time-remaining-display {
     width: 100%;
     height: 400px;
     margin-left: -140px;
-
-    border: 5px solid rgb(0, 255, 123);
-
-  }
-
-  .pa{
-    font-size: 7em;
-    margin-top: -50px;
-    /* margin-bottom: 0px; */
-    margin-left: -140px;
-  }
-
-  .subtitles {
-    font-size: 2.7em;
-    margin-left: -140px;
-    margin-top: 30px;
-  }
-
-  .titles{
-    font-size: 3.4em;
-    margin-top: 110px;
-    margin-left: -140px;
-  }
-
-  .button {
-    font-size: 45px;
-  }
-
-  .ps{
-    font-size: 70px;
-  }
-
-  header {
-    height: 140px;
-  }
-
-  h1 {
-    font-size: 75px;
-    letter-spacing: 3px;
-    margin-top: 45px;
-  }
-
-  nav{
-    width: 100%;
-    /* background-image: url("../img/drago.jpg"); */
-  }
-
-  .anchor {
-    font-size: 30px;
-    width:80%;
-  }
-
-  canvas {
-    height: 65px;
-  }
-
-}
-
- /*=============================================*/
-/* // Medium devices (tablets, 768px and up) */
-/*@Media del celular*/
-/*==============================================*/
-@media (min-width: 799.72px) {
-
-  .container-fluid {
-    width: 80%;
-  }
-
-  #mifoto{
-      width:240px;
-      height:240px;
-    }
-
-  .contador{
-    font-size: 28px;
-  }
-
-  .articulo {
-    width:95%;
-  }
-
-  .vcard{
-    font-size: 1.8em;
-  }
-
-  time{
-    font-size: 60px;
-    padding: 5px;
-  }
-
-  /*Boton play izquierdo */
-  audio::-webkit-media-controls-play-button {
-    height: 100%;
-  }
-  
-  /*Boton play derecho */
-  audio::-webkit-media-controls-mute-button {
-    height: 100px;
-    margin-top: -35px;
-  
-  }
-
-  /* Tiempo del audio*/
-  audio::-webkit-media-controls-current-time-display,
-  audio::-webkit-media-controls-time-remaining-display {
-  font-size: 45px;
-  margin-top: 20px;
-  padding-top: 35px;
-  padding-left: 10px;
-
-  }
-
-  /*Ancho y alto del audio*/
-  .audio{
-    height: 75px;
-    width: 70%;
-    margin-left: -140px;
-  }
-
-  .iframe {
-    width: 100%;
-    height: 400px;
-    margin-left: -140px;
-
-    border: 5px solid rgb(60, 0, 255);
 
   }
 
