@@ -117,7 +117,6 @@ text-shadow: 2px 2px 5px rgba(255,255,255,1);
 
 .ps{
 font-family: acadian;
-/* font-size: 45px; */
 text-align:justify;
 color:white;
 text-shadow: 2px 2px 5px rgba(255,255,255,1);
@@ -644,14 +643,14 @@ box-shadow:
 
 #tituloseccion {
 color: black;
-font-size: 60px;
+font-size: 50px;
 font-family:macabre;
 text-shadow: 
 3px 3px 15px rgba(255,255,255,1),
 3px 3px 15px rgba(255,255,255,1),
 3px 3px 15px rgba(255,255,255,1);
 
-letter-spacing: 5px;
+letter-spacing: 4px;
 
 }
 
@@ -908,6 +907,16 @@ video::-webkit-media-controls-time-remaining-display {
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+  .container-fluid {
+    width: 95%;
+
+  }
+
+  #mifoto{
+    width:100px;
+    height:100px;
+  }
+
   .contador{
     font-size: 17px;
   }
@@ -916,16 +925,32 @@ video::-webkit-media-controls-time-remaining-display {
     font-size: 1em;
   }
 
-  /*Letra y tiempo del audio*/
+  /*Boton play izquierdo */
+  audio::-webkit-media-controls-play-button {
+    height: 100%;
+  }
+  
+  /*Boton play derecho */
+  audio::-webkit-media-controls-mute-button {
+    height: 100px;
+    margin-top: -35px;
+  
+  }
+
+  /* Tiempo del audio*/
   audio::-webkit-media-controls-current-time-display,
   audio::-webkit-media-controls-time-remaining-display {
-    font-size: 22px;
+  font-size: 26px;
+  /* margin-top: 10px; */
+  padding-top: 35px;
+  padding-left: 10px;
+
   }
 
   .audio{
-    margin-left: -140px;
+    margin-left: -130px;
     height: 50px;
-    width: 90%;
+    width: 80%;
   }
 
   time{
@@ -937,6 +962,7 @@ video::-webkit-media-controls-time-remaining-display {
     width: 135%;
     height: 250px;
     margin-left: -137px;
+
   }
 
   .articulo {
@@ -945,19 +971,19 @@ video::-webkit-media-controls-time-remaining-display {
 
   .pa{
     font-size: 3.2em;
-    margin-left: -140px;
+    margin-left: -130px;
     margin-top: -20px;
   }
 
   .subtitles {
     font-size: 1.4em;
-    margin-left: -140px;
+    margin-left: -130px;
   }
 
   .titles{
     font-size: 1.9em;
     margin-top: 50px;
-    margin-left: -140px;
+    margin-left: -130px;
   }
 
   .button {
@@ -1059,7 +1085,6 @@ video::-webkit-media-controls-time-remaining-display {
     width: 115%;
     height: 350px;
     margin-left: -137px;
-
   }
 
   time{
