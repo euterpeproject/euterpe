@@ -663,6 +663,38 @@ color:rgba(255,255,255,0.8);
 
 }
 
+.alineacion {
+  text-decoration: underline;
+  color: black;
+
+  text-shadow: 
+  /* 0 0 15px white, */
+  0 0 15px white,
+  0 0 15px white,
+  0 0 15px white;
+  
+}
+
+.alineacion2 {
+  color: black;
+
+  text-shadow: 
+  /* 0 0 5px white, */
+  0 0 3px white,
+  0 0 5px white,
+  0 0 5px white,
+  0 0 5px white;
+}
+
+.url {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+
+  text-shadow: 
+  0 0 5px white,
+  0 0 5px white;
+}
+
 #secciones {
 color: black;
 font-size: 45px;

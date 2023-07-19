@@ -54,39 +54,41 @@
 				<hr><hr class="hr2">
 
 				<form action="php/enviamail.php" method="post">
-					<table border=0>
+					<center><table border=0>
 						<tr>
 							<td width=50%><br><br>
-								<p class="pform">Ingresa el nombre</p>
+								<p class="pform">Ingresa Nombre :</p>
 							</td>
-							<td width=50%>
-								<input type="text" width=100%  required name="nombre"/>
+							<td width=50%><br>
+								<input type="text" width=100%  required name="nombre" readonly/>
+							</td>
+						</tr>
+						<tr>
+							<td><br>
+								<p class="pform">Ingresa Email :</p>
+							</td>
+							<td>
+								<input type="email" width=100% value="ejemplo: usuario@dominio.com" required name="email" readonly/>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<p class="pform">Ingresa el email</p>
+								<p class="pform">Ingresa Mensaje :</p>
 							</td>
 							<td>
-								<input type="email" width=100% value="ejemplo: usuario@dominio.com" required name="email"/>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<p class="pform">Escribe el mensaje</p>
-							</td>
-							<td>
-								<textarea class="texto" cols=50% rows=6 required name="mensaje"></textarea>
+								<br><textarea class="texto" cols=50% rows=6 required name="mensaje" readonly>Página en construcción</textarea>
+								<td></td>
+								<td></td>
 							</td>
 						</tr>
 						<tr>
 							<td>
 							</td>
 							<td>
-								<input type="submit" value="Enviar"><br><br>
+								<input type="submit" value="Enviar" disabled><br><br>
 							</td>
 						</tr>
-					</table>
+					</table></center>
 				</form>
 				<br>
 				<p class="ps" style="font-size: xx-large;">
