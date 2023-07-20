@@ -33,16 +33,16 @@
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="index.html" class="link anchor"><canvas class="canvas" id="iconoinicio" width="50" height="50"></canvas><br />INICIO</a>
+							<a href="../index.html" class="link anchor"><canvas class="canvas" id="iconoinicio" width="50" height="50"></canvas><br />INICIO</a>
 						</li>
 						<li class="nav-item">
-							<a href="musica.html" class="link anchor"><canvas class="canvas" id="iconomusica" width="50" height="50"></canvas><br />MÚSICA</a>
+							<a href="../musica.html" class="link anchor"><canvas class="canvas" id="iconomusica" width="50" height="50"></canvas><br />MÚSICA</a>
 						</li>
 						<li class="nav-item">
-							<a href="sobremi.html" class="link anchor"><canvas class="canvas" id="iconosobreMi" width="50" height="50"></canvas><br />EUTERPE</a>
+							<a href="../sobremi.html" class="link anchor"><canvas class="canvas" id="iconosobreMi" width="50" height="50"></canvas><br />EUTERPE</a>
 						</li>
 						<li class="nav-item">
-							<a href="contacto.html" class="link anchor"><canvas class="canvas" id="iconocontacto" width="50" height="50"></canvas><br />CONTACTO</a>
+							<a href="../contacto.html" class="link anchor"><canvas class="canvas" id="iconocontacto" width="50" height="50"></canvas><br />CONTACTO</a>
 						</li>
 						</ul><br>
 					</div>
