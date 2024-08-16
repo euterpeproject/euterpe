@@ -44,6 +44,10 @@ src: url(fuentes/apology.ttf) format('truetype')
 font-family: charming;
 src: url(fuentes/charming.ttf) format('truetype')
 }
+@font-face{
+font-family: allThingsPink;
+src: url(fuentes/allThingsPink.ttf) format('truetype')
+}
 
 /*Estilos básicos*/
 
@@ -660,7 +664,9 @@ letter-spacing: 4px;
 }
 
 #seccion{
-font-family:baroque;
+/* font-family:baroque; */
+font-family: allThingsPink;
+font-size: 35px;
 font-size: 35px;
 margin:auto;
 width:90%;
