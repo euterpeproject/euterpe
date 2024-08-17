@@ -673,6 +673,63 @@ color:rgba(255,255,255,0.8);
 
 }
 
+#brochure {
+  /* font-family:baroque; */
+font-family: allThingsPink;
+font-size: 40px;
+margin:auto;
+width:90%;
+color:rgba(255,255,255,0.8);
+
+}
+
+.brochure {
+  color: black;
+
+  text-shadow: 
+  0 0 3px white,
+  0 0 5px white,
+  0 0 5px white,
+  0 0 5px white;
+
+  box-shadow: 
+  0 0 15px white inset,
+  0 0 15px white inset;
+}
+
+.brochureAline {
+  text-decoration: underline;
+  color: black;
+
+  text-shadow: 
+  /* 0 0 50px white, */
+  0 0 15px white,
+  0 0 15px white,
+  0 0 15px white;
+  
+}
+
+.instrumento{
+  /* color: rgb(0, 128, 70); */
+  color: green;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
+
+}
+
+.banda{
+  color: rgb(128, 0, 0);
+
+  text-shadow: 
+  0 0 3px white,
+  0 0 5px white,
+  0 0 5px white,
+  0 0 5px white;
+
+  box-shadow: 
+  0 0 15px white inset,
+  0 0 15px white inset;
+}
+
 .alineacion {
   text-decoration: underline;
   color: black;
