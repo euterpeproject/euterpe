@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+	<head manifest="/manifiesto/manifiesto.cache">
+		<title>Euterpe Death</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="Euterpe Death" />
+		<meta name="keywords" content="Weblog, blog, Euterpe Death, Musica, Metal" />
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="css/estilo.css" type="text/css" />
+
+	</head>
+	<body>
+
+		<div class="container-fluid" itempscope itemtype="http://www.data-vocabulary.org/Person">
+			
+			<header>
+				<div>
+					<h1>E<span class="ocultar">''</span>U<span class="ocultar">''</span>T<span class="ocultar">''</span>E<span class="ocultar">''</span>R<span class="ocultar">''</span>P<span class="ocultar">'</span><span class="inline-block">E</span></h1>
+				</div>
+			</header>
+
+			<div id="contenido">
+				
+				<hr><hr class="hr2">
+				
+				<nav class="navbar navbar-expand-lg text-center">
+					<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary text-center"> -->
+						<div class="container">
+						<a class="navbar-brand" href="#"></a>
+						<button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="navbar-nav">
+							<li class="nav-item">
+								<a href="index.html" class="link anchor"><canvas class="canvas" id="iconoinicio" width="50" height="50"></canvas><br />INICIO</a>
+							</li>
+							<li class="nav-item">
+								<a href="musica.html" class="link anchor"><canvas class="canvas" id="iconomusica" width="50" height="50"></canvas><br />MÚSICA</a>
+							</li>
+							<li class="nav-item">
+								<a href="sobremi.html" class="link anchor"><canvas class="canvas" id="iconosobreMi" width="50" height="50"></canvas><br />EUTERPE</a>
+							</li>
+							<li class="nav-item">
+								<a href="contacto.html" class="link anchor"><canvas class="canvas" id="iconocontacto" width="50" height="50"></canvas><br />CONTACTO</a>
+							</li>
+							</ul><br>
+						</div>
+					</div>
+				</nav>
+
+				<hr><hr class="hr2">
+
+				<form action="php/enviamail.php" method="post">
+					<center><table border=0>
+						<tr>
+							<td width=50%><br><br>
+								<p class="pform">Ingresa Nombre :</p>
+							</td>
+							<td width=50%><br>
+								<input type="text" width=100%  required name="nombre" readonly/>
+							</td>
+						</tr>
+						<tr>
+							<td><br>
+								<p class="pform">Ingresa Email :</p>
+							</td>
+							<td>
+								<input type="email" width=100% value="ejemplo: usuario@dominio.com" required name="email" readonly/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="pform">Ingresa Mensaje :</p>
+							</td>
+							<td>
+								<br><textarea class="texto" cols=50% rows=6 required name="mensaje" readonly>Página en construcción</textarea>
+								<td></td>
+								<td></td>
+							</td>
+						</tr>
+						<tr>
+							<td>
+							</td>
+							<td>
+								<input type="submit" value="Enviar" disabled><br><br>
+							</td>
+						</tr>
+					</table></center>
+				</form>
+				<br>
+				<p class="ps" style="font-size: xx-large;">
+					"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+					"No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."
+				</p>
+
+				<hr>
+				
+			</div>
+			
+			<footer>
+                <h6>
+					<div class="vcard">
+						<div> <br><span class="name">Euterpe Death</span>-<span class="locality">Medellin</span>-<span class="region">Antioquia</span>-<span class="country-name">Colombia</span></div>
+						<div> <span class="tel">0000000000</span>-<span class="email">ejemplo@gmail.com</span></div>
+					</div>
+				</h6>
+
+                <script src="js/contador.js"></script> 
+
+            </footer>
+
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+    	<script src="js/popper.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+
+		<script src="js/iconos.js"></script>
+
+	</body>
+</html>
