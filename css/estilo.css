@@ -683,6 +683,22 @@ color:rgba(255,255,255,0.8);
 
 }
 
+.tituloBrochure {
+   color: rgb(0, 92, 0);
+ /* text-shadow: 0 0 5px rgb(0, 0, 0)*/;
+
+   text-shadow: 
+  0 0 3px white,
+  0 0 5px white,
+  0 0 5px white,
+  0 0 5px white;
+
+  box-shadow: 
+  0 0 15px white inset,
+  0 0 15px white inset;
+
+}
+
 .brochure {
   color: black;
 
